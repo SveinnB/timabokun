@@ -67,5 +67,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  generate: {
+    fallback: '404.html' // Netlify reads a 404.html, Nuxt will load as an SPA
   }
 }
